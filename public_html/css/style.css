@@ -1,0 +1,217 @@
+.main-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.nav-item .bi {
+    margin-right: 10px;
+}
+
+.site-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #eeecec;
+}
+
+.menu-block-left {
+    width: 20%;
+    background-color: #5c5d5e;
+}
+
+.line-name-account {
+    background-color: #414141;
+}
+
+.line-name-account i {
+    color: white;
+    font-size: 26px;
+}
+
+.name-account {
+    padding: 5px;
+}
+
+.name-account p {
+    text-align: center;
+    color: white;
+}
+
+.center-information {
+    width: 80%;
+}
+
+.name-section {
+    height: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 3%), 0 4px 12px rgb(0 0 0 / 18%);
+}
+
+.row-name-section {
+    height: 50px;
+}
+
+.icon-logout {
+    font-size: 25px;
+}
+
+.name-page {
+    font-size: 21px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.page-information {
+    margin: 2px 0 20px 15px;
+}
+
+.info-name-element-account {
+    font-weight: 600;
+}
+
+.container-info-element, .container-help-user {
+    margin: 20px 0 20px 10px;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px -6px #010101;
+}
+
+.title-info-element {
+    border-bottom: 1px solid #010101;
+}
+
+.container-help-user {
+    height: 130px;
+    margin-left: 90px;
+}
+
+.button-help-user {
+    display: flex;
+    background-color: #1ee824;
+    color: #f0f0f0;
+    font-size: 18px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 0px #38801b;
+    transition: 0.5s;
+}
+
+.button-help-user:hover {
+    background-color: #16ca1b;
+    transition: 0.5s;
+}
+
+.button-help-user i {
+    margin-right: 5px;
+    height: 30px;
+}
+
+.title-help-user {
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu-item a {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.menu-item a:hover {
+    color: #c9ecd8;
+    transition: 0.5s;
+}
+
+.start-buyer {
+    background-color: #1497FC;
+    height: 100%;
+}
+
+.start-buyer .header {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.start-buyer .title-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.start-buyer .title-header p {
+    text-align: center;
+    background-color: #7CCB25;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 0px 2px 4px #010101;
+}
+
+.start-buyer .button-menu {
+    z-index: 100;
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-content: end;
+    top: -5px;
+}
+
+.start-buyer .button-menu .button, .start-buyer .menu-top .button {
+    width: 350px;
+    margin-right: 80px;
+}
+
+.start-buyer .button-menu .button a, .start-buyer .menu-top .button a  {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.5;
+    font-size: 26px;
+    color: #ffffff;
+    text-shadow: 0 2px 3px #010101;
+    margin-top: -10px;
+}
+
+.start-buyer .menu-top .button a {
+    position: relative;
+}
+
+.start-buyer .button-menu .button a:before, .start-buyer .menu-top .button a:before {
+    content: '';
+    background: linear-gradient(
+        0deg
+        , rgba(113,113,113,1) 0%, rgba(255,255,255,1) 100%);
+    position: absolute;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    transform: skew(-30deg);
+    z-index: -1;
+    right: 80px;
+}
+
+
+.start-buyer .menu-top .button a:before {
+    right: 0;
+}
+
+.start-buyer .menu-top {
+    margin-top: 60px;
+}
+
+.start-buyer footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.start-buyer .footer-img {
+    background: url(/img/footer_buyer.jpg);
+    background-position: center;
+    height: 400px;
+}
